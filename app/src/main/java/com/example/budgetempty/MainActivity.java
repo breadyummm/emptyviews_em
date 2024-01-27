@@ -1,13 +1,11 @@
 package com.example.budgetempty;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -21,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         ImageButton add_btn = findViewById(R.id.add_btn);
-
-
-
 
         add_btn.setOnClickListener(new View.OnClickListener() {
             @Override
