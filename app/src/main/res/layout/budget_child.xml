@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:text="Activity"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/budg_act"
+        android:layout_width="347dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edt_txt_outline"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="7dp"
+        android:hint="Activity Name"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:text="Date"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+
+    <EditText
+        android:id="@+id/budg_date"
+        android:layout_width="347dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/edt_txt_outline"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="7dp"
+        android:text="Activity Date"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:text="Total Budget"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+
+    <EditText
+        android:id="@+id/budg_total"
+        android:layout_width="347dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/edt_txt_outline"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="7dp"
+        android:text="Activity Total Budget"
+        android:textSize="15sp">
+
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/save_corner"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
